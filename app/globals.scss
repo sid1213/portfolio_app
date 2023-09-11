@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* TYPOGRAPHY */
+$base-color: #fff4ea;
+
+/*MARGIN*/
+.layout-margin {
+  @apply my-3;
+}
+
+body {
+  background-color: $base-color;
+  font-family: "Montserrat";
+}
