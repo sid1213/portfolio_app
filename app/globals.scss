@@ -43,8 +43,7 @@ p {
 }
 section {
   width: 100%;
-  height: 100vh;
-  max-height: 700px;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   padding: 1.4rem;
@@ -52,9 +51,10 @@ section {
   @media screen and (max-width: 640px) {
     height: auto;
     max-height: none;
+    padding: 0;
   }
   @media screen and (max-width: 450px) {
-    height: 100vh;
+    min-height: 100vh;
     max-height: none;
   }
 }
@@ -71,4 +71,27 @@ body {
 }
 .navbar {
   background-color: $base-color;
+}
+.tabs {
+  .ant-tabs-nav-wrap {
+    justify-content: center;
+  }
+  .ant-tabs-tab {
+    font-size: 1rem;
+    font-weight: 600;
+    display: inline-block;
+    transition: color 0.2s ease-in;
+    &:hover {
+      color: $text-color;
+      font-weight: 700;
+    }
+  }
+  .ant-tabs-tab-active {
+    .ant-tabs-tab-btn {
+      color: $text-color !important;
+    }
+  }
+  .ant-tabs-ink-bar {
+    background: none;
+  }
 }
