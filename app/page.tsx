@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import HeroBanner from "@/components/HeroBanner";
 import Portfolio from "@/components/Portfolio";
+import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroBanner />
       <About />
       <Portfolio />
+      <Skills />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
         blanditiis distinctio dolorem odit doloremque voluptas praesentium iusto
