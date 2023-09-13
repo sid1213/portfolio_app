@@ -15,7 +15,7 @@ const Footer = () => {
             </li>
             <li>
               <p>Email</p>
-              <p className="link space-x-5 ">
+              <p className="link space-x-5 hidden ">
                 <a href="">linkedin</a>
                 <a href="">Instagram</a>
                 <a href="">Youtube</a>
