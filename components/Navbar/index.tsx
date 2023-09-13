@@ -3,7 +3,7 @@ import "./index.scss";
 import Image from "next/image";
 const Navbar = () => {
   return (
-    <nav className=" max-h-28 xl:container fixed w-full mx-auto p-5 py-3 z-10 navbar">
+    <nav className=" max-h-28 container fixed w-full mx-auto p-5 py-3 z-10 navbar">
       <div className="flex w-full justify-between items-center">
         <div>
           <Image
