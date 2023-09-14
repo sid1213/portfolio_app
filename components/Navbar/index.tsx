@@ -89,7 +89,6 @@ const Navbar: React.FC<PropTyp> = ({ isDark, setIsDark }) => {
           </div>
         </div>
         <Drawer
-          title="Drawer with extra actions"
           placement="right"
           open={open}
           onClose={onClose}

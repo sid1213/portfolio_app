@@ -105,7 +105,9 @@ const items: TabsProps["items"] = tabs.map((category) => {
     key: category,
     label: category,
     children: (
-      <div className="grid grid-cols-3 sm:grid-cols-4 gap-8">{tabData}</div>
+      <div className="grid grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
+        {tabData}
+      </div>
     ),
   };
 });
@@ -113,7 +115,7 @@ const items: TabsProps["items"] = tabs.map((category) => {
 const Portfolio = () => {
   return (
     <section>
-      <div className=" p-5 w-full text-center">
+      <div className=" sm:p-5 w-full text-center">
         <h1>Portfolio</h1>
         <div className="mt-10">
           <Tabs
