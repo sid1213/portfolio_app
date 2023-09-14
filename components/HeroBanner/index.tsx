@@ -6,7 +6,7 @@ import "./index.scss";
 const HeroBanner = () => {
   return (
     <section>
-      <div className="gap-y-12  sm:gap-2 flex w-full flex-col sm:flex-row justify-between items-center">
+      <div className="gap-y-12  sm:gap-2 flex w-full flex-col sm:flex-row justify-between items-center profile">
         <div className="sm:w-1/2 order-2 sm:order-1 ">
           <h1 className="animation-heading ">
             Hello!! <br /> I am Rishab Verma <br /> I am passionate <br /> about
@@ -35,13 +35,13 @@ const HeroBanner = () => {
           </h1>
           <p className="mt-6">Currently Working at @EdgeCX</p>
         </div>
-        <div className="sm:w-1/2 order-1 sm:order-2  sm:m-0 mt-10 relative">
-          <div className="relative w-fit ml-auto">
+        <div className="sm:w-1/2 order-1 sm:order-2  sm:m-0 mt-10 relative ">
+          <div className="relative w-fit ml-auto ">
             <Image
               src="/rishab_hero.png"
               width={400}
               height={400}
-              alt="profile-image"
+              alt="-image"
               objectFit="contain"
             />
             <div className="absolute ball  w-28 h-28 flex justify-center items-center rounded-full right-0 sm:right-1/2 bottom-0 translate-x-[20%] sm:translate-x-1/2 sm:translate-y-1/2 translate-y-[20%] font-light leading-5 text-white text-xl">

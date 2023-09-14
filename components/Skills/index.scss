@@ -8,7 +8,7 @@
     border: 1px solid #fc5454;
     border-radius: 50%;
     font-size: 2rem;
-    color: black;
+    color: inherit;
     &:hover {
       color: black;
 
@@ -44,7 +44,7 @@
       width: 60px;
       height: 60px;
       font-size: 1.2rem;
-      top: 102%;
+      top: 104%;
     }
   }
   @media screen and (max-width: 500px) {

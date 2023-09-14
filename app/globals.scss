@@ -26,7 +26,6 @@ h2 {
   }
 }
 ul {
-  transition: color 0.5s ease-in;
   li {
     font-size: 1rem;
     font-weight: 600;
@@ -60,8 +59,63 @@ section {
 }
 
 body {
-  background-color: $base-color;
   font-family: "Montserrat";
+  overflow-x: hidden;
+  transition: background 0.2s ease-in;
+}
+.dark {
+  color: white;
+  p,
+  ul,
+  li {
+    color: white !important;
+  }
+  .navbar {
+    background-color: black !important;
+  }
+  .about-content {
+    background: #434141 !important;
+  }
+  .logo-parent {
+    .logo {
+      fill: white;
+    }
+  }
+  .drawer {
+    .ant-drawer-title {
+      transition: color 0.2s ease-in;
+
+      color: white;
+    }
+    .ant-drawer-close {
+      span {
+        svg {
+          path {
+            transition: color 0.2s ease-in;
+
+            fill: white;
+          }
+        }
+      }
+    }
+  }
+  .about {
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      transparent 20%,
+      #434141 20%,
+      #434141 100%
+    );
+    @media screen and (min-width: 640px) {
+      background: transparent;
+    }
+  }
+  .sid {
+    .slick-arrow {
+      color: white !important;
+    }
+  }
 }
 
 .animation-heading {
@@ -71,6 +125,7 @@ body {
 }
 .navbar {
   background-color: $base-color;
+  transition: background 0.2s ease-in;
 }
 .tabs {
   .ant-tabs-nav-wrap {
@@ -101,5 +156,20 @@ body {
   }
   @media screen and (max-width: 1024px) {
     max-width: 100%;
+  }
+}
+.transition {
+  transition: all 0.2s ease-in;
+}
+.about {
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 20%,
+    #ffebd9 20%,
+    #ffebd9 100%
+  );
+  @media screen and (min-width: 640px) {
+    background: transparent;
   }
 }

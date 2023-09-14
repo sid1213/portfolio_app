@@ -8,3 +8,21 @@
     0px 4px 15px 0px rgba(124, 66, 246, 0.1) inset;
   backdrop-filter: blur(15px);
 }
+.profile {
+  position: relative;
+
+  &::after {
+    content: " ";
+    top: 10%;
+    left: 0%;
+    transform: translate(-13%, -20%);
+    width: 100%;
+    height: 150%;
+    position: absolute;
+    background: url("/img-bg.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+  }
+}
