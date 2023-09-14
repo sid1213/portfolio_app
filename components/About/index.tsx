@@ -3,9 +3,9 @@ import React from "react";
 import "./index.scss";
 const About = () => {
   return (
-    <section>
-      <div className="  about  gap-y-10 sm:gap-20 h-fit flex w-full flex-col sm:flex-row justify-between  items-start sm:items-center p-10 sm:p-0">
-        <div className="  sm:w-1/3 h-fit sm:m-0  ">
+    <section id="about">
+      <div className="  about  gap-y-10 sm:gap-20 h-fit flex w-full flex-col sm:flex-row justify-between  items-start sm:items-center p-7 sm:p-0">
+        <div className=" lg:w-1/3 h-fit sm:m-0  ">
           <Image
             src="/rishab_about.png"
             width={400}

@@ -5,8 +5,10 @@ import { TypeAnimation } from "react-type-animation";
 import "./index.scss";
 const HeroBanner = () => {
   return (
-    <section>
-      <div className="gap-y-12  sm:gap-2 flex w-full flex-col sm:flex-row justify-between items-center profile">
+    <section className="h-fit" id="heroBanner">
+      <div
+        className={`gap-y-12  sm:gap-2 flex w-full flex-col sm:flex-row justify-between items-center profile transition`}
+      >
         <div className="sm:w-1/2 order-2 sm:order-1 ">
           <h1 className="animation-heading ">
             Hello!! <br /> I am Rishab Verma <br /> I am passionate <br /> about

@@ -1,16 +1,17 @@
 import React, { Dispatch, SetStateAction, useState } from "react";
 import "./index.scss";
 import Image from "next/image";
-import { Drawer, RadioChangeEvent } from "antd";
-
+import { Drawer } from "antd";
+import Link from "next/link";
 interface PropTyp {
   isDark: boolean;
   setIsDark: Dispatch<SetStateAction<boolean>>;
 }
 
 const Navbar: React.FC<PropTyp> = ({ isDark, setIsDark }) => {
-  const handleSetDarkMode = () => {
+  const handleSetDarkMode: any = () => {
     setIsDark(isDark ? false : true);
+    setOpen(false);
   };
   const [open, setOpen] = useState(false);
   const showDrawer = () => {
@@ -27,12 +28,24 @@ const Navbar: React.FC<PropTyp> = ({ isDark, setIsDark }) => {
         <Logo />
         <div>
           <ul className=" hidden lg:block space-x-10">
-            <li>Home</li>
-            <li>About me</li>
-            <li>Work</li>
-            <li>Design shops</li>
-            <li>Resume</li>
-            <li>Get in Touch</li>
+            <li>
+              <Link href="#heroBanner">Home</Link>
+            </li>
+            <li>
+              <Link href="#about">About me</Link>
+            </li>
+            <li>
+              <Link href="#portfolio">Work</Link>
+            </li>
+            <li>
+              <Link href="#designs"> Design shops</Link>
+            </li>
+            <li>
+              <Link href="#skills">Resume</Link>
+            </li>
+            <li>
+              <Link href="#getInTouch">Get in Touch</Link>
+            </li>
             <li>
               <button
                 className={`${
@@ -96,12 +109,24 @@ const Navbar: React.FC<PropTyp> = ({ isDark, setIsDark }) => {
           style={{ background: !isDark ? "#fff4ea" : "black" }}
         >
           <ul className="  gap-3 flex flex-col">
-            <li>Home</li>
-            <li>About me</li>
-            <li>Work</li>
-            <li>Design shops</li>
-            <li>Resume</li>
-            <li>Get in Touch</li>
+            <li onClick={onClose}>
+              <Link href="#heroBanner">Home</Link>
+            </li>
+            <li onClick={onClose}>
+              <Link href="#about">About me</Link>
+            </li>
+            <li onClick={onClose}>
+              <Link href="#portfolio">Work</Link>
+            </li>
+            <li onClick={onClose}>
+              <Link href="#designs"> Design shops</Link>
+            </li>
+            <li onClick={onClose}>
+              <Link href="#skills">Resume</Link>
+            </li>
+            <li onClick={onClose}>
+              <Link href="#getInTouch">Get in Touch</Link>
+            </li>
             <li>
               <button
                 className={`${

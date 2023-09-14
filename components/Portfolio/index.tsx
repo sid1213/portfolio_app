@@ -89,7 +89,7 @@ const items: TabsProps["items"] = tabs.map((category) => {
       return true;
     }
     tabData.push(
-      <div key={url.imgCategory + index}>
+      <div key={url.imgCategory + index} className="relative img-blur">
         <Image
           src={"/" + url.imgUrl}
           width={400}
@@ -97,6 +97,9 @@ const items: TabsProps["items"] = tabs.map((category) => {
           alt={url.imgUrl.split(".")[1]}
           objectFit="contain"
         />
+        <div className="link absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-white z-10 ">
+          View
+        </div>
       </div>
     );
   });
@@ -114,7 +117,7 @@ const items: TabsProps["items"] = tabs.map((category) => {
 
 const Portfolio = () => {
   return (
-    <section>
+    <section id="portfolio">
       <div className=" sm:p-5 w-full text-center">
         <h1>Portfolio</h1>
         <div className="mt-10">
