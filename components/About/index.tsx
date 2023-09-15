@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section id="about">
       <div className="  about  gap-y-10 sm:gap-20 h-fit flex w-full flex-col sm:flex-row justify-between  items-start sm:items-center p-7 sm:p-0">
-        <div className=" lg:w-1/3 h-fit sm:m-0  ">
+        <div className=" lg:w-1/3 h-fit sm:m-0 sm:max-h-[550px] overflow-hidden ">
           <Image
             src="/rishab_about.png"
             width={400}

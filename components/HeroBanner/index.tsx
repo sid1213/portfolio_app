@@ -7,7 +7,7 @@ const HeroBanner = () => {
   return (
     <section className="h-fit" id="heroBanner">
       <div
-        className={`gap-y-12  sm:gap-2 flex w-full flex-col sm:flex-row justify-between items-center profile transition`}
+        className={` gap-y-8 sm:gap-2 flex w-full flex-col sm:flex-row justify-between items-center profile transition`}
       >
         <div className="sm:w-1/2 order-2 sm:order-1 ">
           <h1 className="animation-heading ">

@@ -26,3 +26,9 @@
     z-index: -1;
   }
 }
+#heroBanner {
+  margin-top: 4rem !important;
+  @media screen and (max-width: 640px) {
+    margin-top: 1rem !important;
+  }
+}

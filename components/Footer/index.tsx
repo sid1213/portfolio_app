@@ -2,7 +2,7 @@ import React from "react";
 import "./index.scss";
 const Footer = () => {
   return (
-    <footer className="my-10 mb-5" id="getInTouch">
+    <footer className=" sm:my-10 mb-5" id="getInTouch">
       <div className=" p-5 flex items-center flex-col gap-4">
         <div>
           <h1>Get in touch</h1>

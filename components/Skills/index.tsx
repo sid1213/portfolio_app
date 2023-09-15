@@ -19,7 +19,7 @@ const Skills = () => {
             arrows
             prevArrow={<div></div>}
             nextArrow={<div></div>}
-            className="sid h-fit  bg-white p-5 xlp-10 flex justify-center items-center"
+            className="sid h-fit  bg-white p-5 xl:p-10 flex justify-center items-center"
           >
             {skills.map((skill) => (
               <div key={skill.title} className="space-y-10">
@@ -43,7 +43,7 @@ const Skills = () => {
           download
           target="blank"
         >
-          <div className="  w-36 sm:w-fit mx-auto mt-20 relative flex justify-center items-center cursor-pointer">
+          <div className="  w-36 sm:w-fit mx-auto sm:mt-20 relative flex justify-center items-center cursor-pointer">
             <div className=" w-full download-animation">
               <svg
                 className="w-full"
@@ -226,7 +226,7 @@ const Skills = () => {
                   cy="130.55"
                   r="73.6424"
                   stroke="url(#paint0_linear_1584_404)"
-                  stroke-width="2"
+                  strokeWidth="2"
                 />
                 <defs>
                   <linearGradient
@@ -237,8 +237,8 @@ const Skills = () => {
                     y2="205.192"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#FF9534" />
-                    <stop offset="1" stop-color="#E328D1" />
+                    <stop stopColor="#FF9534" />
+                    <stop offset="1" stopColor="#E328D1" />
                   </linearGradient>
                 </defs>
               </svg>

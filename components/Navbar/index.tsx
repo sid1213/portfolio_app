@@ -22,7 +22,7 @@ const Navbar: React.FC<PropTyp> = ({ isDark, setIsDark }) => {
   };
 
   return (
-    <nav className=" max-h-28 container fixed w-full mx-auto p-5  z-10 navbar">
+    <nav className=" max-h-28 container fixed w-screen mx-auto p-5  z-10 navbar">
       <div className="flex w-full justify-between items-center">
         <Logo />
         <div>
@@ -86,7 +86,7 @@ const Navbar: React.FC<PropTyp> = ({ isDark, setIsDark }) => {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g clip-path="url(#clip0_331_1168)">
+              <g clipPath="url(#clip0_331_1168)">
                 <path
                   d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z"
                   fill={isDark ? "white" : "black"}
@@ -245,7 +245,7 @@ const Logo = () => {
         <path
           d="M36 27.5C36 32.1944 32.1944 36 27.5 36C22.8056 36 19 32.1944 19 27.5L19 19L27.5 19C32.1944 19 36 22.8056 36 27.5Z"
           fill="url(#paint0_linear_1575_545)"
-          fill-opacity="0.7"
+          fillOpacity="0.7"
         />
         <defs>
           <linearGradient
@@ -256,8 +256,8 @@ const Logo = () => {
             y2="19"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#7C42F6" />
-            <stop offset="1" stop-color="#0964EC" />
+            <stop stopColor="#7C42F6" />
+            <stop offset="1" stopColor="#0964EC" />
           </linearGradient>
         </defs>
       </svg>
