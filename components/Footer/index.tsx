@@ -20,25 +20,39 @@ const Footer = () => {
             <h3 className="font-bold">Follow</h3>
             <ul className="space-x-3 link">
               <li>
-                <a href="">Linkedin</a>
+                <a href="" target="_blank">
+                  Linkedin
+                </a>
               </li>
               <li>
-                <a href="">Instagram</a>
+                <a href="" target="_blank">
+                  Instagram
+                </a>
               </li>
               <li>
-                <a href="">Youtube</a>
+                <a href="" target="_blank">
+                  Youtube
+                </a>
               </li>
               <li>
-                <a href="">Dribbble</a>
+                <a href="" target="_blank">
+                  Dribbble
+                </a>
               </li>
               <li>
-                <a href="">Behance</a>
+                <a href="" target="_blank">
+                  Behance
+                </a>
               </li>
               <li>
-                <a href="">Artstation</a>
+                <a href="" target="_blank">
+                  Artstation
+                </a>
               </li>
               <li>
-                <a href="">Behance</a>
+                <a href="" target="_blank">
+                  Behance
+                </a>
               </li>
             </ul>
           </div>
