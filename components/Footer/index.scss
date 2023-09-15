@@ -6,3 +6,19 @@
     }
   }
 }
+.footer-links {
+  .details {
+    h3 {
+      margin-bottom: 0.5rem;
+    }
+    @media screen and (max-width: 640px) {
+      text-align: center;
+    }
+  }
+  .details:nth-child(even) {
+    text-align: right;
+    @media screen and (max-width: 640px) {
+      text-align: center;
+    }
+  }
+}

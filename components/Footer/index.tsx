@@ -2,41 +2,50 @@ import React from "react";
 import "./index.scss";
 const Footer = () => {
   return (
-    <footer className="my-10 mb-0" id="getInTouch">
+    <footer className="my-10 mb-5" id="getInTouch">
       <div className=" p-5 flex items-center flex-col gap-4">
         <div>
           <h1>Get in touch</h1>
         </div>
-        <div className="bg-green w-full flex flex-col lg:flex-row space-y-10 justify-between mt-10">
-          <ul className="flex flex-col space-y-10">
-            <li>
-              <p>Follow</p>
-              <p className="font-normal">soni28siddh@gmail.com</p>
-            </li>
-            <li>
-              <p>Email</p>
-              <p className="link space-x-5 hidden ">
-                <a href="">linkedin</a>
+        <div className="footer-links w-full mt-10 grid grid-cols-1 sm:grid-cols-2   gap-4 sm:gap-y-10">
+          <div className="details">
+            <h3 className="font-bold">Email</h3>
+            <p>soni28siddh@gmail.com</p>
+          </div>
+          <div className="details">
+            <h3 className="font-bold">Artstation</h3>
+            <p>I&apos;m based in New Delhi,India.</p>
+          </div>
+          <div className="details">
+            <h3 className="font-bold">Follow</h3>
+            <ul className="space-x-3 link">
+              <li>
+                <a href="">Linkedin</a>
+              </li>
+              <li>
                 <a href="">Instagram</a>
+              </li>
+              <li>
                 <a href="">Youtube</a>
+              </li>
+              <li>
                 <a href="">Dribbble</a>
+              </li>
+              <li>
                 <a href="">Behance</a>
+              </li>
+              <li>
                 <a href="">Artstation</a>
-              </p>
-            </li>
-          </ul>
-          <ul className="flex flex-col space-y-10 lg:text-right">
-            <li>
-              <p>Say hi</p>
-              <p className="font-normal">I&apos;m based in New Delhi,India.</p>
-            </li>
-            <li>
-              <p>Copyright © </p>
-              <p className="font-normal">
-                © 2022. All Rights Reserved to Rishab Verma
-              </p>
-            </li>
-          </ul>
+              </li>
+              <li>
+                <a href="">Behance</a>
+              </li>
+            </ul>
+          </div>
+          <div className="details">
+            <h3 className="font-bold">Copyright © </h3>
+            <p>© 2022. All Rights Reserved to Rishab Verma</p>
+          </div>
         </div>
       </div>
     </footer>
