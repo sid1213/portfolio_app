@@ -11,7 +11,6 @@ interface PropTyp {
 const Navbar: React.FC<PropTyp> = ({ isDark, setIsDark }) => {
   const handleSetDarkMode: any = () => {
     setIsDark(isDark ? false : true);
-    setOpen(false);
   };
   const [open, setOpen] = useState(false);
   const showDrawer = () => {
@@ -66,8 +65,8 @@ const Navbar: React.FC<PropTyp> = ({ isDark, setIsDark }) => {
                   <Image
                     src="/sun.svg"
                     alt="logo"
-                    width={15}
-                    height={15}
+                    width={20}
+                    height={20}
                     objectFit="contain"
                   />
                 </div>
@@ -147,8 +146,8 @@ const Navbar: React.FC<PropTyp> = ({ isDark, setIsDark }) => {
                   <Image
                     src="/sun.svg"
                     alt="logo"
-                    width={15}
-                    height={15}
+                    width={20}
+                    height={20}
                     objectFit="contain"
                   />
                 </div>

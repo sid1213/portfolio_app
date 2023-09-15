@@ -43,8 +43,8 @@ const Skills = () => {
           download
           target="blank"
         >
-          <div className=" w-36 sm:w-fit mx-auto mt-20 relative flex justify-center items-center cursor-pointer">
-            <div className=" w-full">
+          <div className="  w-36 sm:w-fit mx-auto mt-20 relative flex justify-center items-center cursor-pointer">
+            <div className=" w-full download-animation">
               <svg
                 className="w-full"
                 width="259"
