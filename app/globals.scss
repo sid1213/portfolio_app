@@ -150,6 +150,9 @@ main {
 .tabs {
   .ant-tabs-nav-wrap {
     justify-content: center;
+    @media screen and (max-width: 640px) {
+      justify-content: start;
+    }
   }
   .ant-tabs-tab {
     font-size: 1rem;
@@ -169,6 +172,14 @@ main {
   }
   .ant-tabs-ink-bar {
     background: none;
+  }
+  .ant-tabs-nav-wrap {
+    &::after {
+      box-shadow: inset -10px 0 8px -8px rgba(255, 255, 255, 0.902) !important;
+    }
+    &::before {
+      box-shadow: inset 10px 0 8px -8px rgba(255, 255, 255, 0.902) !important;
+    }
   }
 }
 .container {

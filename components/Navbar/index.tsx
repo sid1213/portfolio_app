@@ -22,7 +22,7 @@ const Navbar: React.FC<PropTyp> = ({ isDark, setIsDark }) => {
   };
 
   return (
-    <nav className=" max-h-28 container fixed w-screen mx-auto p-5  z-10 navbar">
+    <nav className=" max-h-28 container fixed w-screen mx-auto p-5  z-10 navbar top-0">
       <div className="flex w-full justify-between items-center">
         <Logo />
         <div>
