@@ -6,10 +6,8 @@ const PortfolioPage = () => {
     <main className="flex min-h-screen flex-col items-center justify-between py-10 px-5">
       <section>
         <PortfolioTab
-          isButtonVisible={false}
           title="Portfolio"
-          url="http://localhost:3000/data/portfolio.json"
-          viewMoreUrl="http://localhost:3000/portfolio"
+          url="/data/portfolio.json"
           length={"ALL"}
         />
       </section>
