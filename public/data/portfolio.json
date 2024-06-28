@@ -1,206 +1,64 @@
 [
   {
-    "imgCategory": "Art",
-    "imgUrl": "rishab_about.png"
+    "imgCategory": "EdgeCX",
+    "imgUrl": "dashcx-web.svg",
+    "url": "https://app.dashcx.com"
   },
   {
-    "imgCategory": "Art & craft",
-    "imgUrl": "rishab_about.png"
+    "imgCategory": "EdgeCX",
+    "imgUrl": "dashcx-mobile.svg",
+    "url": "https://play.google.com/store/apps/details?id=com.whatcx.app&hl=en&gl=US"
+  },
+
+  {
+    "imgCategory": "EdgeCX",
+    "imgUrl": "dashcx-management-portal.svg",
+    "url": "https://managementstaging.whatcx.com/"
   },
   {
-    "imgCategory": "laat",
-    "imgUrl": "rishab_about.png"
+    "imgCategory": "EdgeCX",
+    "imgUrl": "dashcx-website.svg",
+    "url": "https://www.dashcx.com/"
   },
   {
-    "imgCategory": "heart",
-    "imgUrl": "rishab_about.png"
+    "imgCategory": "Cobold Digital",
+    "imgUrl": "home-llc.svg",
+    "url": "https://home.llc/"
   },
   {
-    "imgCategory": "PORTFOLIO",
-    "imgUrl": "rishab_about.png"
+    "imgCategory": "Cobold Digital",
+    "imgUrl": "clat-possible.svg",
+    "url": "https://www.clatpossible.com"
   },
   {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
+    "imgCategory": "Cobold Digital",
+    "imgUrl": "motwane.svg",
+    "url": "https://motwane.com/"
+  },
+
+  {
+    "imgCategory": "Personal",
+    "imgUrl": "instaride.svg",
+    "url": "https://instaride-sid1213.vercel.app/"
   },
   {
-    "imgCategory": "ALL",
-    "imgUrl": "bcd.png"
+    "imgCategory": "Personal",
+    "imgUrl": "mycommerce.svg",
+    "url": "https://myecomers.vercel.app/"
   },
   {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
+    "imgCategory": "Personal",
+    "imgUrl": "rode-clone.svg",
+    "url": "https://dashing-trifle-a24a74.netlify.app/"
   },
   {
-    "imgCategory": "ALL",
-    "imgUrl": "bcd.png"
+    "imgCategory": "Personal",
+    "imgUrl": "paytm-clone.svg",
+    "url": "https://genuine-beijinho-67e99a.netlify.app/"
   },
   {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "bcd.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "bcd.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "bcd.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "bcd.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "bcd.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "bcd.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "bcd.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "bcd.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "bcd.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "bcd.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "bcd.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "bcd.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "bcd.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "bcd.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "bcd.png"
-  },
-  {
-    "imgCategory": "PORTFOLIO",
-    "imgUrl": "rishab_about.png"
-  },
-  {
-    "imgCategory": "UI/UX",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "UI/UX",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
-  },
-  {
-    "imgCategory": "ALL",
-    "imgUrl": "abc.png"
+    "imgCategory": "Personal",
+    "imgUrl": "mario.svg",
+    "url": "https://density-assesment-delta.vercel.app/"
   }
 ]

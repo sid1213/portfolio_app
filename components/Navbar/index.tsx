@@ -36,12 +36,7 @@ const Navbar: React.FC<PropTyp> = ({ isDark, setIsDark }) => {
             <li>
               <Link href="#portfolio">Work</Link>
             </li>
-            <li>
-              <Link href="#designs"> Design shops</Link>
-            </li>
-            <li>
-              <Link href="#skills">Resume</Link>
-            </li>
+
             <li>
               <Link href="#getInTouch">Get in Touch</Link>
             </li>

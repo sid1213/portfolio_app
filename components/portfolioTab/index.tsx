@@ -1,5 +1,5 @@
 import React from "react";
-import { Pagination, Tabs } from "antd";
+import { Tabs } from "antd";
 import type { TabsProps } from "antd";
 import "./index.scss";
 import Image from "next/image";
@@ -9,22 +9,14 @@ import Link from "next/link";
 interface PropType {
   url: string;
   title: string;
-  isButtonVisible: boolean;
-
-  viewMoreUrl: string;
   length: number | "ALL";
 }
 
-const PortfolioTab: React.FC<PropType> = async ({
-  url,
-  title,
-  isButtonVisible,
-  viewMoreUrl,
-  length,
-}) => {
+const PortfolioTab: React.FC<PropType> = async ({ url, title, length }) => {
   const getImageData = async () => {
     const imagesData = await getPortfolio(url);
     const tabs = await [...new Set(imagesData.map((item) => item.imgCategory))];
+
     const items: TabsProps["items"] = await tabs.map((category) => {
       const filter = imagesData.filter((item) => item.imgCategory === category);
       const tabData: React.JSX.Element[] = [];
@@ -34,7 +26,12 @@ const PortfolioTab: React.FC<PropType> = async ({
             return true;
           }
         tabData.push(
-          <div key={url.imgCategory + index} className="relative img-blur">
+          <Link
+            key={url.imgCategory + index}
+            href={url.url ? url.url : "#"}
+            target="_blank"
+            className="relative img-blur"
+          >
             <Image
               src={"/" + url.imgUrl}
               width={400}
@@ -42,10 +39,10 @@ const PortfolioTab: React.FC<PropType> = async ({
               alt={url.imgUrl.split(".")[1]}
               objectFit="contain"
             />
-            <div className="link absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-white z-10 ">
+            <div className="link absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-white z-10 text-lg font-extrabold">
               View
             </div>
-          </div>
+          </Link>
         );
       });
 
@@ -74,16 +71,6 @@ const PortfolioTab: React.FC<PropType> = async ({
           className="tabs"
         />
       </div>
-
-      {isButtonVisible ? (
-        <div className="mt-5">
-          <button className="bg-[#FC5454] px-5 py-3 text-white font-semibold rounded-xl">
-            <Link href={viewMoreUrl}> View more</Link>
-          </button>
-        </div>
-      ) : (
-        " "
-      )}
     </div>
   );
 };

@@ -11,19 +11,17 @@ const HeroBanner = () => {
       >
         <div className="sm:w-1/2 order-2 sm:order-1 ">
           <h1 className="animation-heading ">
-            Hello!! <br /> I am Rishab Verma <br /> I am passionate <br /> about
+            Hello!! <br /> I am Siddharth <br /> I am passionate <br /> about
             <br />
             <TypeAnimation
               sequence={[
-                "UI/UX Design",
+                "Frontend Development",
                 2 * 1000,
-                "Graphic Design",
+                "Product Development",
                 2 * 1000,
-                "Illustration",
+                "APP Development",
                 2 * 1000,
-                "Graphite Drawing",
-                2 * 1000,
-                "Branding & Identity",
+                "UI Development",
                 2 * 1000,
               ]}
               wrapper="span"
@@ -35,21 +33,21 @@ const HeroBanner = () => {
             />
             <span>&nbsp;</span>
           </h1>
-          <p className="mt-6">Currently Working at @EdgeCX</p>
+          <p className="mt-6">Currently Working at @DashCX</p>
         </div>
         <div className="sm:w-1/2 order-1 sm:order-2  sm:m-0 mt-10 relative ">
           <div className="relative w-fit ml-auto ">
             <Image
-              src="/rishab_hero.png"
+              src="/siddharth.jpeg"
               width={400}
               height={400}
-              alt="-image"
+              alt="Profile-image"
               objectFit="contain"
             />
             <div className="absolute ball  w-28 h-28 flex justify-center items-center rounded-full right-0 sm:right-1/2 bottom-0 translate-x-[20%] sm:translate-x-1/2 sm:translate-y-1/2 translate-y-[20%] font-light leading-5 text-white text-xl">
-              <p className="text-white ">
+              <button className="text-white ">
                 Click <br /> here
-              </p>
+              </button>
             </div>
           </div>
         </div>

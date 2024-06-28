@@ -15,7 +15,7 @@ const Skills = () => {
     <section id="skills">
       <div className="w-full text-center">
         <div>
-          <Carousel
+          {/* <Carousel
             arrows
             prevArrow={<div></div>}
             nextArrow={<div></div>}
@@ -36,13 +36,9 @@ const Skills = () => {
                 </div>
               </div>
             ))}
-          </Carousel>
+          </Carousel> */}
         </div>
-        <Link
-          href="https://drive.google.com/file/d/17bqpvzcGAsqy3BrjqRL7h9dwddGEphft/view?usp=sharing"
-          download
-          target="blank"
-        >
+        <Link href="/siddharthsoni.pdf" download target="blank">
           <div className="  w-36 sm:w-fit mx-auto sm:mt-20 relative flex justify-center items-center cursor-pointer">
             <div className=" w-full download-animation">
               <svg
