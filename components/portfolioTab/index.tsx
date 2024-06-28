@@ -66,7 +66,7 @@ const data = [
   },
   {
     imgCategory: "Personal",
-    imgUrl: "paytm-clone.svg",
+    imgUrl: "shopify-website-clone.svg",
     url: "https://genuine-beijinho-67e99a.netlify.app/",
   },
   {
