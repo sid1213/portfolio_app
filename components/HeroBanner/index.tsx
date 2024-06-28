@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import "./index.scss";
+import Link from "next/link";
 const HeroBanner = () => {
   return (
     <section className="h-fit" id="heroBanner">
@@ -45,9 +46,14 @@ const HeroBanner = () => {
               objectFit="contain"
             />
             <div className="absolute ball  w-28 h-28 flex justify-center items-center rounded-full right-0 sm:right-1/2 bottom-0 translate-x-[20%] sm:translate-x-1/2 sm:translate-y-1/2 translate-y-[20%] font-light leading-5 text-white text-xl">
-              <button className="text-white ">
+              <Link
+                href={"/siddharthsoni.pdf"}
+                download
+                target="_blank"
+                className="text-white "
+              >
                 Click <br /> here
-              </button>
+              </Link>
             </div>
           </div>
         </div>
